@@ -1,0 +1,70 @@
+/* 1. Element Selector */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* 2. Class Selector */
+.article-section {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.sidebar-item {
+  list-style: none;
+  padding: 5px;
+  background-color: #eee;
+}
+
+/* 3. ID Selector */
+#main-title {
+  font-size: 2em;
+  color: gold;
+}
+
+/* 4. Attribute Selectors */
+a[target="_blank"] {
+  color: green;
+}
+
+img[alt*="Book"] {
+  border: 2px solid red;
+}
+
+/* 5. Pseudo-classes */
+a:hover {
+  color: red;
+}
+
+li:hover {
+  background-color: lightblue;
+}
+
+/* 6. Combinators */
+nav > a {
+  color: white;
+}
+
+.article-section + .article-section {
+  margin-top: 20px;
+  border-color: blue;
+}
+
+.article-section h2 ~ p {
+  color: #333;
+}
