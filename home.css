@@ -1,4 +1,4 @@
-/* 1. Element Selector */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -17,7 +17,6 @@ nav a {
   text-decoration: none;
 }
 
-/* 2. Class Selector */
 .article-section {
   border: 1px solid #ccc;
   margin: 10px;
@@ -31,13 +30,11 @@ nav a {
   background-color: #eee;
 }
 
-/* 3. ID Selector */
 #main-title {
   font-size: 2em;
   color: gold;
 }
 
-/* 4. Attribute Selectors */
 a[target="_blank"] {
   color: green;
 }
@@ -46,7 +43,6 @@ img[alt*="Book"] {
   border: 2px solid red;
 }
 
-/* 5. Pseudo-classes */
 a:hover {
   color: red;
 }
@@ -55,7 +51,6 @@ li:hover {
   background-color: lightblue;
 }
 
-/* 6. Combinators */
 nav > a {
   color: white;
 }
